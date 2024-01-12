@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Payment Landing Page</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div>
+            <a href="#" class="nav-bar-logo">Logo</a>
+        </div>
+        
+        <a href="#" class="nav-bar-item" id="home">Home</a>
+        <a href="#" class="nav-bar-item">Features</a>
+        <a href="#" class="nav-bar-item">Pricing</a>
+        <a href="#" class="nav-bar-item">Help</a>
+        <a href="#" class="nav-bar-item">Blog</a>
+        <a href="#" class="nav-bar-item">About Us</a>
+        <span></span>
+        <div></div>
+        <div></div>
+        <div class="nav-bar-buttons">
+            <a href="" class="nav-bar-item-btn" id="login">Log In</a>
+            <a href="" class="nav-bar-item-btn" id="signup">Sign Up</a>
+        </div>
+    </nav>
+
+    <div class="main-section">
+        <section class="section-text">
+            <p class="small-text">START SAVING MONEY</p>
+            <h1 class="title-text" id="typed-cursor">Smart Credit Card</h1>
+            <h1 class="title-text" id="typed-cursor">For You Daily Life.</h1>
+
+            <div class="btn-download">
+                <a class="link-download"  href="#">Download</a>
+                <a href=""><img src="images/download.png" alt="download"></a>
+            </div>
+        </section>
+        <section class="section-img">
+
+        </section>
+    </div>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#typed-cursor', {
+    /**
+     * @property {array} strings strings to be typed
+     * @property {string} stringsElement ID of element containing string children
+     */
+        strings: [
+        'Brainpower Credit Card',
+        'Brainy Banking Card',
+        'Clever Cash Card',
+        'Sharp Spending Card',
+        'Genius Financial Card',
+        'Savvy Transaction Card',
+        'Bright Money Card',
+    ],
+        stringsElement: null,
+
+        showCursor: false,
+        cursorChar: '|',
+        autoInsertCss: true,
+
+        
+        typeSpeed: 100,
+
+        loop: true,
+        loopCount: Infinity,
+    });
+</script>
+</body>
+
+</html>
